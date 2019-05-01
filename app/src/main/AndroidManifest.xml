@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="Quizz.corporation.blaze.oppositequiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="Quizz.corporation.blaze.oppositequiz.main_menu"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity android:name="Quizz.corporation.blaze.oppositequiz.start_game"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="Quizz.corporation.blaze.oppositequiz.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="Quizz.corporation.blaze.oppositequiz.level_1_activity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="Quizz.corporation.blaze.oppositequiz.level_2_activity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="Quizz.corporation.blaze.oppositequiz.animationintro"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Quizz.corporation.blaze.oppositequiz.level_0_activity"
+            android:screenOrientation="portrait"></activity>
+            <activity android:name="Quizz.corporation.blaze.oppositequiz.categoryselect"
+                android:screenOrientation="portrait"></activity>
+        <activity android:name="Quizz.corporation.blaze.oppositequiz.NormalLevels"
+            android:screenOrientation="portrait"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quizz</string>
+    <string name="Exit">Start</string>
+    <string name="Start">Exit</string>
+    <string name="Level_3">Level 3</string>
+    <string name="Level_2">Level 2</string>
+    <string name="Level_1">Level 1</string>
+    <string name="intial_points">Points=0</string>
+    <string name="points">Points=0</string>
+    <string name="Hint_button">Hint!</string>
+    <string name="Confirm_button">Confirm</string>
+    <string name="textview">Note: This game is totally opposite,
+        make your choices carefully.</string>
+    <string name="True_button">True</string>
+    <string name="False_button">False</string>
+    <string name="level_info">Level 3/Level 1 :  Questions are written in opposite but answers are normal.
+                              "\n""\n" Level 2:  True/False based quiz.Questions are written normal but you must answer in opposite.
+
+                                </string>
+    <string name="Category_info"> Mind Twister : A special  type of game mode in which the wrong answer is actually right answer.
+                                  "\n""\n"Normal Mode : The questions in this mode are regarding general knowledge and other fun stuff.</string>
+
+
+</resources>
+
